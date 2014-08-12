@@ -20,14 +20,14 @@ def main_menu
 end
 
 def add_triangle
-    puts "enter first side"
-    inputted_side1 = gets.chomp.to_i
-    puts "enter second side"
-    inputted_side2 = gets.chomp.to_i
-    puts "enter third"
-    inputted_side3 = gets.chomp.to_i
-    @triangle_list  << Triangle.new(inputted_side1, inputted_side2, inputted_side3)
-    puts "triangle sides added. \n\n"
+  puts "enter first side"
+  inputted_side1 = gets.chomp.to_i
+  puts "enter second side"
+  inputted_side2 = gets.chomp.to_i
+  puts "enter third"
+  inputted_side3 = gets.chomp.to_i
+  @triangle_list  << Triangle.new(inputted_side1, inputted_side2, inputted_side3)
+  puts "triangle sides added. \n\n"
 end
 
 def list_triangles
