@@ -9,7 +9,7 @@ describe Triangle do
 
   it 'checks whether the inputted sides can form a triangle' do
     test_triangle = Triangle.new(2,3,40)
-    expect(test_triangle.valid_triangle).to eq false
+    expect(test_triangle.valid_triangle).to eq 'Not a triangle'
   end
 
   it 'checks whether the inputted sides form a equilateral' do

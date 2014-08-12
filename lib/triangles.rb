@@ -11,12 +11,16 @@ class Triangle
     @triangle_arr = [@side1, @side2, @side3].sort!
     if @triangle_arr[2] > (@triangle_arr[0] + @triangle_arr[1])
       @triangle_arr.to_s + ": is not a Triangle"
+      "Not a triangle"
     elsif @triangle_arr[2] == @triangle_arr[0]
       @triangle_arr.to_s + ": is an Equilateral Triangle"
+      "Equilateral Triangle"
     elsif @triangle_arr[1] == @triangle_arr[0]
       @triangle_arr.to_s + ": is an Isosceles Triangle"
+      "Isosceles Triangle"
     else
-      @triangle_arr.to_s + ": is a Scalene Triangle"
+      "Scalene Triangle"
+      # @triangle_arr.to_s + ": is a Scalene Triangle"
     end
   end
 end
