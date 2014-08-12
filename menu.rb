@@ -33,7 +33,7 @@ end
 def list_triangles
   puts "Here are all your triangles:"
   @triangle_list.each do |triangle|
-    puts "Triangle Verification=> " + triangle.valid_triangle
+    puts "#{triangle.valid_triangle}"
   end
   puts "\n"
 end
