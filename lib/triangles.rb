@@ -1,5 +1,3 @@
-require 'pry'
-
 class Triangle
 
 @triangle_arr = []
